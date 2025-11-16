@@ -15,6 +15,7 @@ app.add_middleware(
         "http://localhost:3000",
         "https://nexaquant.tech",
         "https://*.nexaquant.tech",
+        "https://www.nexaquant.tech",
         "https://*.vercel.app"
     ],
     allow_credentials=True,
