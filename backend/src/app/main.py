@@ -16,7 +16,7 @@ app.add_middleware(
         "https://nexaquant.tech",
         "https://*.nexaquant.tech",
         "https://www.nexaquant.tech",
-        "https://*.vercel.app"
+        "https://*.vercel.app", "*"
     ],
     allow_credentials=True,
     allow_methods=["*"],
